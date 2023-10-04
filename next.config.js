@@ -1,10 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
-  images: {
-    domains: ['emojipedia-us.s3.amazonaws.com']
-  },
-}
+const nextConfig = {}
+
 module.exports = nextConfig
